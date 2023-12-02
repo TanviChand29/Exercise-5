@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    background-color:black;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:white;
+}
+
+.title{
+    padding-left: 100px;
+}
+
+#title{
+    padding-top: 40px;
+    font-family: sans serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#quote{
+    font-family: sans serif;
+    font-weight: normal;
+}
+
+.embed{
+    padding-left: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.info{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 73px;
+    padding-bottom: 85px;
+}
+
+
+.visit{
+    width: 35%; 
+    float: left;
+}
+
+.plan-visit{
+    color: white;
+    font-size: 21px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+
+.requests{
+    margin-left: 46%;
+}
+
+
+.form{
+    color: white;
+    font-size: 21px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+
+input[type=text]{
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+input[type=submit]{
+    background-color: white;
+    border: none;
+    color: black;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    margin: 4px 2px;;
+}
+
+
+
+
+

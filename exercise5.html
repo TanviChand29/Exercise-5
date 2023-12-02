@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Web API</title>
+    <title>Spotify Embed - iFrame API</title>
     <link href="exercise5.css" rel="stylesheet">
     <script src="spotify.js"></script>
     <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
@@ -12,10 +11,50 @@
 
 <body>
 
-    <div id="embed-iframe"></div>
+<section>
+    <div class="banner">
+       
+        <h1>LOGO</h1> 
 
+    </div>
+
+
+    <div class="title">
+        <h1 id="title">"I never painted dreams. I painted my own reality."</h1>
+        <p id="quote">-Frida Kahlo</p>
+    </div>
+
+    <div class="embed">
+    <div id="embed-iframe"></div>
+    </div>
+
+</section>
 
 </body>
+
+
+<footer>
+    
+    <div class="info">     
+          
+          <div class="visit">
+              <h1 class="plan-visit">WTHR 314<br>Open Mon — Sat<br>10:30 a.m. — 7:00 p.m.</h1>
+          </div>
+
+
+           <div class="requests">
+              <h1 class="form">
+                <form>
+                <label for="song-request">Song Requests:</label><br>
+                <input type="text" id="song-request" name="request"><br>
+                <input type="submit" value="Submit">
+              </form>
+              </h1>
+            </div>
+
+      </div>
+
+</footer>
 
 
 
