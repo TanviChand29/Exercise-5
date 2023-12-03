@@ -14,13 +14,25 @@ section{
 
 .banner{
     width: 100%;
-    background-color:black;
+    background-image:url("Red\ World\ Art\ Day\ \(Banner\ \(Landscape\)\)\ \(1\).png");
     padding-left: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
     color:white;
 }
+.section-content {
+    display: flex;
+}
 
+.icon,
+.embed {
+    flex: 1;
+}
+img{ 
+    height: 200px;
+    width: 200px;
+    padding-left: 200px;
+}
 .title{
     padding-left: 100px;
 }
@@ -38,9 +50,14 @@ section{
 }
 
 .embed{
-    padding-left: 100px;
+    padding-left: 10px;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+.icon{
+    padding-top: 100px;
+    padding-left: 10px;
+    
 }
 
 
@@ -50,7 +67,6 @@ footer{
     margin: 0;
     width: 100%;
 }
-
 
 .info{
     width: 100%;
@@ -104,8 +120,3 @@ input[type=submit]{
     text-decoration: none;
     margin: 4px 2px;;
 }
-
-
-
-
-
