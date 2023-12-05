@@ -1,49 +1,36 @@
 html{
+    width:100%;
     margin: 0;
     padding: 0;
     
 }
 
 body{ 
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
 section{
     width: 100%;
+    margin: 0;
+    padding:0;
 }
 
 .banner{
-    background-color: black;
-    padding-top: 15px;
+    background-color: white;
+    padding-top: 0px;
     padding-bottom: 15px;
 }
 
 .banner-img{
     padding: 0;
-    width: 30%;
+    width: 100%;
 }
 
-.section-content {
-    display: flex;
-}
-
-.icon,
-.embed {
-    flex: 1;
-}
-
-
-img{ 
-    height: 200px;
-    width: 200px;
-    padding-left: 200px;
-}
-.title{
-    padding-left: 100px;
-}
 
 #title{
+    align: center;
     padding-top: 40px;
     font-family: sans serif;
     font-style: italic;
@@ -56,7 +43,7 @@ img{
 }
 
 .embed{
-    padding-left: 10px;
+    padding-left: 250px;
     padding-bottom: 40px;
     padding-top: 40px;
 }
