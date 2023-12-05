@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    
 }
 
 body{ 
@@ -13,13 +14,16 @@ section{
 }
 
 .banner{
-    width: 100%;
-    background-image:url("Red\ World\ Art\ Day\ \(Banner\ \(Landscape\)\)\ \(1\).png");
-    padding-left: 100px;
+    background-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
-    color:white;
 }
+
+.banner-img{
+    padding: 0;
+    width: 30%;
+}
+
 .section-content {
     display: flex;
 }
@@ -28,6 +32,8 @@ section{
 .embed {
     flex: 1;
 }
+
+
 img{ 
     height: 200px;
     width: 200px;
@@ -54,6 +60,7 @@ img{
     padding-bottom: 40px;
     padding-top: 40px;
 }
+
 .icon{
     padding-top: 100px;
     padding-left: 10px;
